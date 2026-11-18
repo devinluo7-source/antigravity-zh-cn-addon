@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-19",
+  "timezone": "Asia/Shanghai",
+  "platform": "Windows",
+  "clientVersion": "2.33.0",
+  "nodeVersion": "24.18.1",
+  "upstreamCommit": "0af9c2e95fb2d50f311eadad67a6604e95b1b201",
+  "addonEntries": 230,
+  "live": {
+    "ok": true,
+    "addonVersion": "1.0.0",
+    "upstreamVersion": "20261118-v5.4.3-stable-8a92de1f",
+    "dictionaryCount": 2007,
+    "checks": [
+      "metrics",
+      "onboarding",
+      "icons",
+      "settings",
+      "accessibility",
+      "dynamic-reset",
+      "chat-code-input-protection",
+      "live-update",
+      "cleanup"
+    ]
+  },
+  "offlineChecks": [
+    "configuration merge",
+    "metadata preservation",
+    "BOM and CRLF restoration",
+    "repeated installation",
+    "manual edit protection",
+    "uninstall restoration",
+    "invalid JSON data protection"
+  ],
+  "settingsReviewed": [
+    "General",
+    "Application",
+    "Appearance",
+    "Shortcuts",
+    "Notifications",
+    "Models",
+    "Browser",
+    "Conversations",
+    "Provide Feedback"
+  ],
+  "menusReviewed": [
+    "Antigravity",
+    "Workspace",
+    "View",
+    "Window"
+  ],
+  "retainedEnglish": [
+    "product and model names",
+    "physical shortcut names",
+    "skill identifiers",
+    "file paths and account names"
+  ],
+  "limitations": [
+    "All conditional dialogs and third-party plugins have not been enumerated",
+    "Native operating system dialogs are outside the DOM extension",
+    "Onboarding structure is covered by an isolated DOM regression check; its one-time card was not reset",
+    "Future client and upstream versions require new verification"
+  ],
+  "modelRequestsSentByChecks": 0
+}
