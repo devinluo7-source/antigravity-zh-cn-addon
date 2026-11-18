@@ -1,0 +1,8 @@
+node_modules/
+*.log
+*.tmp
+backups/
+work/
+.env
+.env.*
+*-local.json
